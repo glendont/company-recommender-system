@@ -25,7 +25,7 @@ SECRET_KEY = 'rshv8tf4zkbod=a5o@g@p1$g28+us7p1rn!&h5iwl7!!+om9qu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['companyrecommendersystem.herokuapp.com']
 
 CRISPY_TEMPLATE_PACK='bootstrap4'
 
