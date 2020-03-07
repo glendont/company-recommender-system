@@ -326,6 +326,23 @@
   </section>
 
  {% if messages %}
+
+ <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
+
+
+
+
+
+
+
   <section class="page-section bg-primary text-white left:0" id="about">
   <div class="container">
       <!-- About Section Heading -->
