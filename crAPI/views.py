@@ -155,8 +155,8 @@ def cxcontact(request):
 			companysize=form.cleaned_data['companysize']
 			myDict = (request.POST).dict()
 			answer=approvereject(myDict)
-			messages.success(request,'{}'.format(answer))
-			#messages.success(request,answer)
+			#messages.success(request,'{}'.format(answer))
+			messages.success(request,answer)
 
 		
 	form=SubmissionForm()
