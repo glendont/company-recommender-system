@@ -121,14 +121,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-STATIC_URL='/static/ '
 
-STATICFILES_DIRS = [
-        os.path.join(BASE_DIR,'sttic_in_env'),
-        ]
 VENV_PATH = os.path.dirname(BASE_DIR)
 
-STATIC_ROOT = os.path.join(VENV_PATH, 'static_root')
+#STATIC_ROOT = os.path.join(VENV_PATH, 'static_root')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
