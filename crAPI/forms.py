@@ -13,8 +13,6 @@ class SubmissionForm(forms.Form):
 	# countryregion=forms.CharField()
 	# sector=forms.CharField(max_length=30)
 	# companysize=forms.CharField(max_length=30)
-	
-
 
 	countrystatus=forms.ChoiceField(choices=(('OECD', 'OECD'),
 		('DAC-UMICT', 'DAC-UMICT'),
@@ -25,16 +23,13 @@ class SubmissionForm(forms.Form):
 )
 
 	featurereport=forms.ChoiceField(choices=(('No', 'No'),
-		('nan', 'nan'),
 		('Yes', 'Yes')))
 
 	goldcommunity=forms.ChoiceField(choices=(('No', 'No'),
-		('nan', 'nan'),
 		('Yes', 'Yes')))
 
 	companylisted=forms.ChoiceField(choices=(('Listed', 'Listed'),
 		('Non-listed', 'Non-listed'),
-		('nan', 'nan'),
 		('Not applicable', 'Not applicable')))
 
 	coyname = forms.CharField(max_length=30)
@@ -54,9 +49,6 @@ class SubmissionForm(forms.Form):
 		('Latin America & the Caribbean', 'Latin America & the Caribbean'),
 		('Africa', 'Africa'),
 		('Oceania', 'Oceania')))
-
-
-
 
 	sector=forms.ChoiceField(choices=(('No', 'Energy Utilities'),
 		('nan', 'Healthcare Products'),
@@ -94,13 +86,11 @@ class SubmissionForm(forms.Form):
 		('Logistics', 'Logistics'),
 		('Agriculture', 'Agriculture'),
 		('Public Agency', 'Public Agency'),
-		('Toys', 'Toys'),
-		('=', '=')))
+		('Toys', 'Toys')))
 
 	companysize=forms.ChoiceField(choices=(('Large', 'Large'),
 		('MNE', 'MNE'),
-		('SME', 'SME'),
-		('nan','nan')))
+		('SME', 'SME')))
 
 
 	
