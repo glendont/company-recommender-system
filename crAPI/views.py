@@ -156,7 +156,8 @@ def cxcontact(request):
 			myDict = (request.POST).dict()
 			answer=approvereject(myDict)
 			#messages.success(request,'{}'.format(answer))
-			messages.success(request,answer)
+			output = str(coyname) + '\n' + str(answer)
+			messages.success(request,output)
 
 		
 	form=SubmissionForm()
