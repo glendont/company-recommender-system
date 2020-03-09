@@ -114,13 +114,15 @@ def approvereject(unit):
 		print("Your selected company is: "+str(company_name))
 		print('Your reccomended companies are: ')    
 		print("Index \t Company Name")
-		finallist=[]
+		finalstring=''
 		
 		if index_df['Index'][0] == 12491:
 		    for i in range (1,6):
 		        z = index_df['Index'][i]
-		        finallist.append(raw_df.iloc[z]['Name'])
-		        finalstring ='\n'.join(finallist)
+		        finalstring = finalstring + '○' + str(raw_df.iloc[z]['Name'])
+
+
+
 		        # finalstring = finalstring +  str(raw_df.iloc[z]['Name'] + '\t' + '\n')
 		       	#print(str(index_df['Index'][i]) + '\t '+ raw_df.iloc[z]['Name'])
 		    return finalstring
@@ -128,8 +130,8 @@ def approvereject(unit):
 		else:
 		    for i in range (0,5):
 		        z = index_df['Index'][i]
-		        finallist.append(raw_df.iloc[z]['Name'])
-		        finalstring ='\n'.join(finallist)
+		        finalstring = finalstring + '○' + str(raw_df.iloc[z]['Name'])
+		       
 		       #finalstring = finalstring +  str(raw_df.iloc[z]['Name'] + '\t' + '\n')
 
 		        #print(str(index_df['Index'][i]) + '\t ' + raw_df.iloc[z]['Name'])
