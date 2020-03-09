@@ -49,7 +49,7 @@ def approvereject(unit):
 		hidden_size = 46
 		input_dimension=69
 		code_size=23
-		epochs=10
+		epochs=5
 		#Establishing neural network layers
 		input_img = Input(shape=(input_dimension,))
 		hidden_1 = Dense(hidden_size, activation='relu')(input_img)
