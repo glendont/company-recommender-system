@@ -354,6 +354,14 @@
 
       	<ul class="messages">
 	{% for message in messages %}
+	{% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+	<div class="d-flex justify-content-center"> <p> {{message}} </p> </div>
+
+	{% endif %}
+
+	<br>
+
+
 	<div  {% if message.tags %} class=" {{ message.tags }} " {% endif %}> 
       
       <!-- <div class="col-lg-flex ml-auto">  -->

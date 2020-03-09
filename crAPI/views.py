@@ -157,6 +157,7 @@ def cxcontact(request):
 			answer=approvereject(myDict)
 			#messages.success(request,'{}'.format(answer))
 			output = str(coyname) + '\n' + str(answer)
+			messages.warning(request,coyname)
 			messages.success(request,output)
 
 		
