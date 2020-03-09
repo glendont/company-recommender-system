@@ -366,12 +366,13 @@
 	  </div>
 	  {% endif %}
 	  {% endfor %}
+
 	    {% for message in messages %}
-	  <footer>Your Competitors are:</footer>
 	  {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
 	  <div>
 	  	<p>
       <blockquote class="blockquote text-center">
+      <footer>Your Competitors are:</footer>
 	  <p class="lead">{{message}}</p>
 	</blockquote>
 	  	</p>
