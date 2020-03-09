@@ -130,7 +130,7 @@ def approvereject(unit):
 		else:
 		    for i in range (0,5):
 		        z = index_df['Index'][i]
-		       finalstring = finalstring + str(raw_df.iloc[z]['Name']) + '  •  '
+		        finalstring = finalstring + str(raw_df.iloc[z]['Name']) + '  •  '
 		       
 		       #finalstring = finalstring +  str(raw_df.iloc[z]['Name'] + '\t' + '\n')
 
