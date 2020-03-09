@@ -352,17 +352,32 @@
       <!-- About Section Content -->
       <div class="row">
         <div class="col-sm-12 text-center">
+        <footer>Your Company:</footer>
         {% for message in messages %}
           <!-- <p class="lead"><center>{{message}}</center></p> -->
        <blockquote class="blockquote text-center">
+	  
+	  {% if message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+	  <div>
+	  	<p>
+	  		{{message}}
+	  	</p>
+	  	
+	  </div>
 
-	  <footer>Your Competitors Are...</footer>
-
+	  {% endif %}
+	  <footer>Your Competitors are:</footer>
+	  {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+	  <div>
+	  	<p>
       <blockquote class="blockquote text-center">
 	  <p class="lead">{{message}}</p>
 	</blockquote>
-        </div>
-      </div>
+	  	</p>
+	  	
+	  </div>
+
+	  {% endif %}
 
        {% endfor %}
 
