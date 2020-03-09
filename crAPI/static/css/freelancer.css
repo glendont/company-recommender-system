@@ -1238,6 +1238,11 @@ pre code {
 }
 
 @media (min-width: 1200px) {
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
   .col-xl {
     flex-basis: 0;
     flex-grow: 1;
