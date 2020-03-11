@@ -138,9 +138,9 @@ def approvereject(unit):
 		        messages.success(unit,finalstring)
 		    return finalstring
 
-	# except ValueError as e:
-	# 	errorstring='Please Try Again Later'
-	# 	return errorstring
+	except ValueError as e:
+		errorstring='Please Try Again Later'
+		return errorstring
 
 def cxcontact(request):
 	if request.method=='POST':
