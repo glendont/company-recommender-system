@@ -6,3 +6,16 @@ It is built through latent feature modelling using dimensionality reduction tech
 ![](CRS.gif)
 
 Try it yourself at https://companyrecommendersystem.herokuapp.com/
+
+
+## Technologies:
+
+### Machine Learning
+Tensorflow / Keras
+Pickle
+
+### Web Development
+Django
+
+### Deployment
+Heroku
