@@ -8,8 +8,7 @@ It is built through latent feature modelling using dimensionality reduction tech
 Try it yourself at https://companyrecommendersystem.herokuapp.com/
 
 
-## Technologies:
-
+## Technologies
 ### Machine Learning
 Tensorflow / Keras
 Pickle
