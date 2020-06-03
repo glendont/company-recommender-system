@@ -8,13 +8,19 @@ It is built through latent feature modelling using dimensionality reduction tech
 Try it yourself at https://companyrecommendersystem.herokuapp.com/
 
 
-## Technologies
-### Machine Learning
-Tensorflow / Keras
-Pickle
+## Built With
+* [Tensorflow](https://www.tensorflow.org/) - Machine Learning
+* [Keras](https://keras.io/) - Machine Learning
+* [Pickle](https://docs.python.org/3/library/pickle.html) - Machine Learning Deployment 
+* [Django](https://www.djangoproject.com/) - Web development 
+* [Heroku](https://dashboard.heroku.com/) - Deployment 
 
-### Web Development
-Django
+## Contributing
+Feel free to contribute to this project by submitting pull requests to this repository. 
 
-### Deployment
-Heroku
+## Authors
+* **Glendon Thaiw** [Github](https://github.com/glendont)
+
+
+
+
