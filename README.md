@@ -19,7 +19,7 @@ Try it yourself at https://companyrecommendersystem.herokuapp.com/
 Feel free to contribute to this project by submitting pull requests to this repository. 
 
 ## Authors
-* **Glendon Thaiw**)
+* **Glendon Thaiw**
 
 
 
